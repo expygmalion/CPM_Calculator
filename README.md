@@ -35,7 +35,7 @@ To run the app:
 ```
 ## Sample Run: 
 
-```bacs
+```bash
 Welcome to Project Critical Path Calculator
 Enter project name: Project A
 
@@ -48,4 +48,17 @@ Choose option: 1
 Enter task ID: T1
 Enter task duration: 3
 Task added successfully.
+```
+
+```bash
+CPM Analysis Results:
+=====================
+Task ID | Duration | Early Start | Early Finish | Late Start | Late Finish | Slack | Dependencies
+------------------------------------------------------------------------
+T1      | 3        | 0           | 3            | 0          | 3           | 0     | 
+T2      | 2        | 3           | 5            | 3          | 5           | 0     | T1
+...
+Critical Path:
+Project Duration: 10
+Path: T1 -> T2 -> T5
 ```
