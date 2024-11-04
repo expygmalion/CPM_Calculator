@@ -1,7 +1,7 @@
 # Critical Path Method Calculator
 
 ## Overview
-[Critical Path](https://en.wikipedia.org/wiki/Critical_path_method) Project Manager is a JavaFX application designed to visualize the critical path of a project by calculating task dependencies, durations, and slack times. Tasks on the critical path have zero slack, indicating they are essential to the project timeline.
+[Critical Path](https://en.wikipedia.org/wiki/Critical_path_method) Method (CPM) Calculator is a JavaFX application designed to visualize the critical path of a project by calculating task dependencies, durations, and slack times. Tasks on the critical path have zero slack, indicating they are essential to the project timeline.
 
 ## Features
 - **Critical Path Calculation**: Automatically computes critical paths.
