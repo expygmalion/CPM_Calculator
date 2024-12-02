@@ -8,14 +8,14 @@ import java.util.Scanner;
 
 public class ConsoleUI {
     private final ProjectService projectService;
-    private final Scanner scanner;
+    private final Scanner scanner ;
 
     public ConsoleUI() {
         this.projectService = new ProjectService();
         this.scanner = new Scanner(System.in);
     }
 
-    public void start() {
+    public void init() {
         System.out.println("Welcome to Project Critical Path Calculator");
         System.out.print("Enter project name: ");
         String projectName = scanner.nextLine();
@@ -73,6 +73,6 @@ public class ConsoleUI {
 
     public static void main(String[] args) {
         ConsoleUI ui = new ConsoleUI();
-        ui.start();
+        ui.init();
     }
 }
